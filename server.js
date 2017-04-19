@@ -11,8 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', controllers.index);
 
-app.get('/test', function(req, res) {
-  RetroBot.postToChannel('random', 'hello, world!')
+app.post('/test', function(req, res) {
+  console.log(req.body)
+  // RetroBot.postToChannel('random', 'hello, world! :wave:')
 });
 
 app.listen(PORT, error => {
