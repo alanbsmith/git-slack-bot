@@ -13,7 +13,7 @@ app.get('/', controllers.index);
 
 app.post('/test', function(req, res) {
   console.log(req.body)
-  // RetroBot.postToChannel('random', 'hello, world! :wave:')
+  RetroBot.postToChannel('random', req.body)
 });
 
 app.listen(PORT, error => {
