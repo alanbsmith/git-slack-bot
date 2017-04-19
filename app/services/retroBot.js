@@ -5,7 +5,7 @@ const bot = new SlackBot({
   name: process.env.BOT_NAME
 });
 
-const GitBot = {
+const RetroBot = {
   postToChannel: (channelName, message) => {
     bot.postMessageToChannel(channelName, message);
   },
@@ -14,4 +14,4 @@ const GitBot = {
   }
 };
 
-module.exports = GitBot;
+module.exports = RetroBot;

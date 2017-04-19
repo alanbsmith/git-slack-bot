@@ -1,5 +1,3 @@
-const GitBot = require('../services/gitBot');
-
 const Controller = {
   index: (req, res) => {
     console.log(req.body)

@@ -1,5 +1,5 @@
 {
-  "name": "git-slack-bot",
+  "name": "retrobot",
   "version": "0.0.1",
   "description": "a simple slack / github bot",
   "main": "server.js",
