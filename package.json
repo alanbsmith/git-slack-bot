@@ -1,0 +1,18 @@
+{
+  "name": "git-slack-bot",
+  "version": "0.0.1",
+  "description": "a simple slack / github bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "slackbots": "^1.0.2"
+  }
+}
